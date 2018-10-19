@@ -845,9 +845,9 @@ public class TestClass {
             for (int i = 0; i < Gramatica.size(); i++) {
 
                 all = new ArrayList<ArrayList<String>>();
-                elem = new ArrayList<String>();
-                elem = CalPred(keys.get(i));
-                all.add(elem);
+                //elem = new ArrayList<String>();
+                all = CalPred(keys.get(i));
+                //all.add(elem);
                 Prediccion.put(keys.get(i),all);
             }
 
